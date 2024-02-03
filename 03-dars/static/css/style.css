@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100px;
+    height: 500px;
+}

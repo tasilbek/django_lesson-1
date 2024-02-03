@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% block home %}
+
+<div class="container">
+    <div class="header">
+        <h1>Burger Menu</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dignissimos, nostrum eum non temporibus cum
+    repellat laudantium nulla fugit tempora.</p>
+    </div>
+    <div class="main">
+       <div class="item">
+        <img src="{% static "img\crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg" %}" alt="">
+        <h2>Double Burger</h2>
+        <h3>$8.50</h3>
+        <button>ADD TO CART</button>
+       </div>
+       <div class="item">
+        <img src="{% static "img\crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg" %}" alt="">
+        <h2>Double Burger</h2>
+        <h3>$8.50</h3>
+        <button>ADD TO CART</button>
+       </div>
+       <div class="item">
+        <img src="{% static "img\crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg" %}" alt="">
+        <h2>Double Burger</h2>
+        <h3>$8.50</h3>
+        <button>ADD TO CART</button>
+       </div>
+    </div>
+</div>
+
+{% endblock home %}
